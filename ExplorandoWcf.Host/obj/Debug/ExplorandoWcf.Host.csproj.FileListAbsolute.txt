@@ -1,0 +1,8 @@
+C:\Users\renanf\Documents\RepositoriosGitHub\ExplorandoWcf\ExplorandoWcf\ExplorandoWcf.Host\bin\Debug\ExplorandoWcf.Host.exe.config
+C:\Users\renanf\Documents\RepositoriosGitHub\ExplorandoWcf\ExplorandoWcf\ExplorandoWcf.Host\bin\Debug\ExplorandoWcf.Host.exe
+C:\Users\renanf\Documents\RepositoriosGitHub\ExplorandoWcf\ExplorandoWcf\ExplorandoWcf.Host\bin\Debug\ExplorandoWcf.Host.pdb
+C:\Users\renanf\Documents\RepositoriosGitHub\ExplorandoWcf\ExplorandoWcf\ExplorandoWcf.Host\bin\Debug\ExplorandoWcf.dll
+C:\Users\renanf\Documents\RepositoriosGitHub\ExplorandoWcf\ExplorandoWcf\ExplorandoWcf.Host\bin\Debug\ExplorandoWcf.pdb
+C:\Users\renanf\Documents\RepositoriosGitHub\ExplorandoWcf\ExplorandoWcf\ExplorandoWcf.Host\obj\Debug\ExplorandoWcf.Host.csprojResolveAssemblyReference.cache
+C:\Users\renanf\Documents\RepositoriosGitHub\ExplorandoWcf\ExplorandoWcf\ExplorandoWcf.Host\obj\Debug\ExplorandoWcf.Host.exe
+C:\Users\renanf\Documents\RepositoriosGitHub\ExplorandoWcf\ExplorandoWcf\ExplorandoWcf.Host\obj\Debug\ExplorandoWcf.Host.pdb
