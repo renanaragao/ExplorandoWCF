@@ -25,6 +25,9 @@ namespace ExplorandoWcf.ClientWebHttp
 
                 endPoint.Behaviors.Add(new NewtonsoftJsonBehavior());
 
+
+                Console.WriteLine(typeof(NewtonsoftJsonContentTypeMapper).AssemblyQualifiedName);
+
                 selfHost.Open();
                 Console.WriteLine("Serviço rodando.");
                 Console.WriteLine();
