@@ -4,6 +4,7 @@
     <xsd:schema targetNamespace="http://Microsoft.ServiceModel.Samples/Imports">
       <xsd:import namespace="http://Microsoft.ServiceModel.Samples" />
       <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/ExplorandoWcf" />
     </xsd:schema>
   </wsdl:types>
   <wsdl:message name="ICalculator_Add_InputMessage">
@@ -30,6 +31,18 @@
   <wsdl:message name="ICalculator_Divide_OutputMessage">
     <wsdl:part name="parameters" element="tns:DivideResponse" />
   </wsdl:message>
+  <wsdl:message name="ICalculator_Search_InputMessage">
+    <wsdl:part name="parameters" element="tns:Search" />
+  </wsdl:message>
+  <wsdl:message name="ICalculator_Search_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICalculator_DateNow_InputMessage">
+    <wsdl:part name="parameters" element="tns:DateNow" />
+  </wsdl:message>
+  <wsdl:message name="ICalculator_DateNow_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DateNowResponse" />
+  </wsdl:message>
   <wsdl:portType name="ICalculator">
     <wsdl:operation name="Add">
       <wsdl:input wsaw:Action="http://Microsoft.ServiceModel.Samples/ICalculator/Add" message="tns:ICalculator_Add_InputMessage" />
@@ -46,6 +59,14 @@
     <wsdl:operation name="Divide">
       <wsdl:input wsaw:Action="http://Microsoft.ServiceModel.Samples/ICalculator/Divide" message="tns:ICalculator_Divide_InputMessage" />
       <wsdl:output wsaw:Action="http://Microsoft.ServiceModel.Samples/ICalculator/DivideResponse" message="tns:ICalculator_Divide_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Search">
+      <wsdl:input wsaw:Action="http://Microsoft.ServiceModel.Samples/ICalculator/Search" message="tns:ICalculator_Search_InputMessage" />
+      <wsdl:output wsaw:Action="http://Microsoft.ServiceModel.Samples/ICalculator/SearchResponse" message="tns:ICalculator_Search_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DateNow">
+      <wsdl:input wsaw:Action="http://Microsoft.ServiceModel.Samples/ICalculator/DateNow" message="tns:ICalculator_DateNow_InputMessage" />
+      <wsdl:output wsaw:Action="http://Microsoft.ServiceModel.Samples/ICalculator/DateNowResponse" message="tns:ICalculator_DateNow_OutputMessage" />
     </wsdl:operation>
   </wsdl:portType>
 </wsdl:definitions>

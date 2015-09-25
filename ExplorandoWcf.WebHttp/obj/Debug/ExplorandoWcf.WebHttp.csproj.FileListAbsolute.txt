@@ -1,0 +1,8 @@
+C:\Users\renanf\Documents\RepositoriosGitHub\ExplorandoWcf\ExplorandoWcf\ExplorandoWcf.WebHttp\bin\Debug\ExplorandoWcf.WebHttp.dll.config
+C:\Users\renanf\Documents\RepositoriosGitHub\ExplorandoWcf\ExplorandoWcf\ExplorandoWcf.WebHttp\bin\Debug\ExplorandoWcf.WebHttp.dll
+C:\Users\renanf\Documents\RepositoriosGitHub\ExplorandoWcf\ExplorandoWcf\ExplorandoWcf.WebHttp\bin\Debug\ExplorandoWcf.WebHttp.pdb
+C:\Users\renanf\Documents\RepositoriosGitHub\ExplorandoWcf\ExplorandoWcf\ExplorandoWcf.WebHttp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\renanf\Documents\RepositoriosGitHub\ExplorandoWcf\ExplorandoWcf\ExplorandoWcf.WebHttp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\renanf\Documents\RepositoriosGitHub\ExplorandoWcf\ExplorandoWcf\ExplorandoWcf.WebHttp\obj\Debug\ExplorandoWcf.WebHttp.csprojResolveAssemblyReference.cache
+C:\Users\renanf\Documents\RepositoriosGitHub\ExplorandoWcf\ExplorandoWcf\ExplorandoWcf.WebHttp\obj\Debug\ExplorandoWcf.WebHttp.dll
+C:\Users\renanf\Documents\RepositoriosGitHub\ExplorandoWcf\ExplorandoWcf\ExplorandoWcf.WebHttp\obj\Debug\ExplorandoWcf.WebHttp.pdb

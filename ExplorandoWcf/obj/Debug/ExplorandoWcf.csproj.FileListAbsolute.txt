@@ -1,6 +1,5 @@
 C:\Users\renanf\Documents\RepositoriosGitHub\ExplorandoWcf\ExplorandoWcf\ExplorandoWcf\bin\Debug\ExplorandoWcf.dll.config
 C:\Users\renanf\Documents\RepositoriosGitHub\ExplorandoWcf\ExplorandoWcf\ExplorandoWcf\bin\Debug\ExplorandoWcf.dll
 C:\Users\renanf\Documents\RepositoriosGitHub\ExplorandoWcf\ExplorandoWcf\ExplorandoWcf\bin\Debug\ExplorandoWcf.pdb
-C:\Users\renanf\Documents\RepositoriosGitHub\ExplorandoWcf\ExplorandoWcf\ExplorandoWcf\obj\Debug\ExplorandoWcf.csprojResolveAssemblyReference.cache
 C:\Users\renanf\Documents\RepositoriosGitHub\ExplorandoWcf\ExplorandoWcf\ExplorandoWcf\obj\Debug\ExplorandoWcf.dll
 C:\Users\renanf\Documents\RepositoriosGitHub\ExplorandoWcf\ExplorandoWcf\ExplorandoWcf\obj\Debug\ExplorandoWcf.pdb

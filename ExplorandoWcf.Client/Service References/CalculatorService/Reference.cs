@@ -9,35 +9,232 @@
 //------------------------------------------------------------------------------
 
 namespace ExplorandoWcf.Client.CalculatorService {
+    using System.Runtime.Serialization;
+    using System;
     
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="ResultadoOfdouble", Namespace="http://schemas.datacontract.org/2004/07/ExplorandoWcf")]
+    [System.SerializableAttribute()]
+    public partial class ResultadoOfdouble : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string MensagemField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private double ValorField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Mensagem {
+            get {
+                return this.MensagemField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.MensagemField, value) != true)) {
+                    this.MensagemField = value;
+                    this.RaisePropertyChanged("Mensagem");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public double Valor {
+            get {
+                return this.ValorField;
+            }
+            set {
+                if ((this.ValorField.Equals(value) != true)) {
+                    this.ValorField = value;
+                    this.RaisePropertyChanged("Valor");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="ResultadoOfint", Namespace="http://schemas.datacontract.org/2004/07/ExplorandoWcf")]
+    [System.SerializableAttribute()]
+    public partial class ResultadoOfint : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string MensagemField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int ValorField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Mensagem {
+            get {
+                return this.MensagemField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.MensagemField, value) != true)) {
+                    this.MensagemField = value;
+                    this.RaisePropertyChanged("Mensagem");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int Valor {
+            get {
+                return this.ValorField;
+            }
+            set {
+                if ((this.ValorField.Equals(value) != true)) {
+                    this.ValorField = value;
+                    this.RaisePropertyChanged("Valor");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="ResultadoOfdateTime", Namespace="http://schemas.datacontract.org/2004/07/ExplorandoWcf")]
+    [System.SerializableAttribute()]
+    public partial class ResultadoOfdateTime : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string MensagemField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime ValorField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Mensagem {
+            get {
+                return this.MensagemField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.MensagemField, value) != true)) {
+                    this.MensagemField = value;
+                    this.RaisePropertyChanged("Mensagem");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime Valor {
+            get {
+                return this.ValorField;
+            }
+            set {
+                if ((this.ValorField.Equals(value) != true)) {
+                    this.ValorField = value;
+                    this.RaisePropertyChanged("Valor");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     [System.ServiceModel.ServiceContractAttribute(Namespace="http://Microsoft.ServiceModel.Samples", ConfigurationName="CalculatorService.ICalculator")]
     public interface ICalculator {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://Microsoft.ServiceModel.Samples/ICalculator/Add", ReplyAction="http://Microsoft.ServiceModel.Samples/ICalculator/AddResponse")]
-        double Add(double n1, double n2);
+        ExplorandoWcf.Client.CalculatorService.ResultadoOfdouble Add(string n1, string n2);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://Microsoft.ServiceModel.Samples/ICalculator/Add", ReplyAction="http://Microsoft.ServiceModel.Samples/ICalculator/AddResponse")]
-        System.Threading.Tasks.Task<double> AddAsync(double n1, double n2);
+        System.Threading.Tasks.Task<ExplorandoWcf.Client.CalculatorService.ResultadoOfdouble> AddAsync(string n1, string n2);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://Microsoft.ServiceModel.Samples/ICalculator/Subtract", ReplyAction="http://Microsoft.ServiceModel.Samples/ICalculator/SubtractResponse")]
-        double Subtract(double n1, double n2);
+        ExplorandoWcf.Client.CalculatorService.ResultadoOfdouble Subtract(string n1, string n2);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://Microsoft.ServiceModel.Samples/ICalculator/Subtract", ReplyAction="http://Microsoft.ServiceModel.Samples/ICalculator/SubtractResponse")]
-        System.Threading.Tasks.Task<double> SubtractAsync(double n1, double n2);
+        System.Threading.Tasks.Task<ExplorandoWcf.Client.CalculatorService.ResultadoOfdouble> SubtractAsync(string n1, string n2);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://Microsoft.ServiceModel.Samples/ICalculator/Multiply", ReplyAction="http://Microsoft.ServiceModel.Samples/ICalculator/MultiplyResponse")]
-        double Multiply(double n1, double n2);
+        ExplorandoWcf.Client.CalculatorService.ResultadoOfdouble Multiply(string n1, string n2);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://Microsoft.ServiceModel.Samples/ICalculator/Multiply", ReplyAction="http://Microsoft.ServiceModel.Samples/ICalculator/MultiplyResponse")]
-        System.Threading.Tasks.Task<double> MultiplyAsync(double n1, double n2);
+        System.Threading.Tasks.Task<ExplorandoWcf.Client.CalculatorService.ResultadoOfdouble> MultiplyAsync(string n1, string n2);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://Microsoft.ServiceModel.Samples/ICalculator/Divide", ReplyAction="http://Microsoft.ServiceModel.Samples/ICalculator/DivideResponse")]
-        double Divide(double n1, double n2);
+        ExplorandoWcf.Client.CalculatorService.ResultadoOfdouble Divide(string n1, string n2);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://Microsoft.ServiceModel.Samples/ICalculator/Divide", ReplyAction="http://Microsoft.ServiceModel.Samples/ICalculator/DivideResponse")]
-        System.Threading.Tasks.Task<double> DivideAsync(double n1, double n2);
+        System.Threading.Tasks.Task<ExplorandoWcf.Client.CalculatorService.ResultadoOfdouble> DivideAsync(string n1, string n2);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://Microsoft.ServiceModel.Samples/ICalculator/Search", ReplyAction="http://Microsoft.ServiceModel.Samples/ICalculator/SearchResponse")]
+        ExplorandoWcf.Client.CalculatorService.ResultadoOfint Search(int id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://Microsoft.ServiceModel.Samples/ICalculator/Search", ReplyAction="http://Microsoft.ServiceModel.Samples/ICalculator/SearchResponse")]
+        System.Threading.Tasks.Task<ExplorandoWcf.Client.CalculatorService.ResultadoOfint> SearchAsync(int id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://Microsoft.ServiceModel.Samples/ICalculator/DateNow", ReplyAction="http://Microsoft.ServiceModel.Samples/ICalculator/DateNowResponse")]
+        ExplorandoWcf.Client.CalculatorService.ResultadoOfdateTime DateNow(System.DateTime date);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://Microsoft.ServiceModel.Samples/ICalculator/DateNow", ReplyAction="http://Microsoft.ServiceModel.Samples/ICalculator/DateNowResponse")]
+        System.Threading.Tasks.Task<ExplorandoWcf.Client.CalculatorService.ResultadoOfdateTime> DateNowAsync(System.DateTime date);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -67,36 +264,52 @@ namespace ExplorandoWcf.Client.CalculatorService {
                 base(binding, remoteAddress) {
         }
         
-        public double Add(double n1, double n2) {
+        public ExplorandoWcf.Client.CalculatorService.ResultadoOfdouble Add(string n1, string n2) {
             return base.Channel.Add(n1, n2);
         }
         
-        public System.Threading.Tasks.Task<double> AddAsync(double n1, double n2) {
+        public System.Threading.Tasks.Task<ExplorandoWcf.Client.CalculatorService.ResultadoOfdouble> AddAsync(string n1, string n2) {
             return base.Channel.AddAsync(n1, n2);
         }
         
-        public double Subtract(double n1, double n2) {
+        public ExplorandoWcf.Client.CalculatorService.ResultadoOfdouble Subtract(string n1, string n2) {
             return base.Channel.Subtract(n1, n2);
         }
         
-        public System.Threading.Tasks.Task<double> SubtractAsync(double n1, double n2) {
+        public System.Threading.Tasks.Task<ExplorandoWcf.Client.CalculatorService.ResultadoOfdouble> SubtractAsync(string n1, string n2) {
             return base.Channel.SubtractAsync(n1, n2);
         }
         
-        public double Multiply(double n1, double n2) {
+        public ExplorandoWcf.Client.CalculatorService.ResultadoOfdouble Multiply(string n1, string n2) {
             return base.Channel.Multiply(n1, n2);
         }
         
-        public System.Threading.Tasks.Task<double> MultiplyAsync(double n1, double n2) {
+        public System.Threading.Tasks.Task<ExplorandoWcf.Client.CalculatorService.ResultadoOfdouble> MultiplyAsync(string n1, string n2) {
             return base.Channel.MultiplyAsync(n1, n2);
         }
         
-        public double Divide(double n1, double n2) {
+        public ExplorandoWcf.Client.CalculatorService.ResultadoOfdouble Divide(string n1, string n2) {
             return base.Channel.Divide(n1, n2);
         }
         
-        public System.Threading.Tasks.Task<double> DivideAsync(double n1, double n2) {
+        public System.Threading.Tasks.Task<ExplorandoWcf.Client.CalculatorService.ResultadoOfdouble> DivideAsync(string n1, string n2) {
             return base.Channel.DivideAsync(n1, n2);
+        }
+        
+        public ExplorandoWcf.Client.CalculatorService.ResultadoOfint Search(int id) {
+            return base.Channel.Search(id);
+        }
+        
+        public System.Threading.Tasks.Task<ExplorandoWcf.Client.CalculatorService.ResultadoOfint> SearchAsync(int id) {
+            return base.Channel.SearchAsync(id);
+        }
+        
+        public ExplorandoWcf.Client.CalculatorService.ResultadoOfdateTime DateNow(System.DateTime date) {
+            return base.Channel.DateNow(date);
+        }
+        
+        public System.Threading.Tasks.Task<ExplorandoWcf.Client.CalculatorService.ResultadoOfdateTime> DateNowAsync(System.DateTime date) {
+            return base.Channel.DateNowAsync(date);
         }
     }
 }

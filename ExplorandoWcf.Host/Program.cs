@@ -17,10 +17,10 @@ namespace ExplorandoWcf.Host
             try
             {
                 // Criando o EndPoint
-                selfHost.AddServiceEndpoint(typeof(ICalculator), new WSHttpBinding(), "calculator");
+                selfHost.AddServiceEndpoint(typeof (ICalculator), new WebHttpBinding(), "calculator");
 
                 // Criando um comportamento indicando que ele pode ser acessado via web
-                var smb = new ServiceMetadataBehavior { HttpGetEnabled = true };
+                var smb = new ServiceMetadataBehavior {HttpGetEnabled = true};
                 selfHost.Description.Behaviors.Add(smb);
 
                 // Step 5 Start the service.
@@ -36,8 +36,8 @@ namespace ExplorandoWcf.Host
             {
                 Console.WriteLine("Ocorreu um exceção: {0}", ex.Message);
                 selfHost.Abort();
+                Console.ReadLine();
             }
-
         }
     }
 }

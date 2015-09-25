@@ -50,9 +50,26 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
+    <Compile Include="Service References\ServiceWcfRodando\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Service References\CalculatorService\ExplorandoWcf.Client.CalculatorService.ResultadoOfdateTime.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\CalculatorService\ExplorandoWcf.Client.CalculatorService.ResultadoOfdouble.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\CalculatorService\ExplorandoWcf.Client.CalculatorService.ResultadoOfint.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\CalculatorService\ExplorandoWcf.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Service References\CalculatorService\Microsoft.ServiceModel.Samples.wsdl" />
     <None Include="Service References\CalculatorService\Microsoft.ServiceModel.Samples.xsd">
       <SubType>Designer</SubType>
@@ -61,12 +78,21 @@
     <None Include="Service References\CalculatorService\service.xsd">
       <SubType>Designer</SubType>
     </None>
+    <None Include="Service References\ServiceWcfRodando\CalculatorService.wsdl" />
+    <None Include="Service References\ServiceWcfRodando\item.wsdl" />
+    <None Include="Service References\ServiceWcfRodando\item.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceWcfRodando\item1.xsd">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadataStorage Include="Service References\CalculatorService\" />
+    <WCFMetadataStorage Include="Service References\ServiceWcfRodando\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Service References\CalculatorService\configuration91.svcinfo" />
@@ -76,6 +102,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Service References\CalculatorService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceWcfRodando\item.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceWcfRodando\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceWcfRodando\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceWcfRodando\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>

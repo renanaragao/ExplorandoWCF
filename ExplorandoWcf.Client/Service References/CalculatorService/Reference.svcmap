@@ -26,6 +26,7 @@
     <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="f3aef73a-0f44-439d-9559-f771b69bceac" SourceId="1" SourceUrl="http://localhost:8000/explorando-wcf/calculator/mex" />
     <MetadataFile FileName="Microsoft.ServiceModel.Samples.xsd" MetadataType="Schema" ID="85345d44-9a7e-4036-b882-a7410670565e" SourceId="1" SourceUrl="http://localhost:8000/explorando-wcf/calculator/mex" />
     <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="879189d8-a4ab-426e-9887-b0489c41fc7f" SourceId="1" SourceUrl="http://localhost:8000/explorando-wcf/calculator/mex" />
+    <MetadataFile FileName="ExplorandoWcf.xsd" MetadataType="Schema" ID="e6e89cf0-9a5e-473c-a251-9caabce2d0cf" SourceId="1" SourceUrl="http://localhost:8000/explorando-wcf/calculator/mex" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
